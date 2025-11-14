@@ -17,9 +17,9 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 35%;
+    width: 45%;
     border: 1px solid black;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(forest.jpg);
+    background-image: url(forest.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-color: darkgreen;
@@ -29,11 +29,37 @@
 }
 #imgback{
     
+    display: flex;
     width: 100%;
     height:20%;
     background-color: black;
     opacity: 70%;
     margin-bottom: 60%;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 4em
+
+}
+#Submit{
+    height: 35%;
+    width: 25%;
+    margin-right: 70%;
+    background-color: green;
+    border-radius: 5%;
+    color: white;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+
+}
+
+
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .card{
     display: flex;
@@ -43,6 +69,11 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100%;
     height:25%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2em;
+    
 
 }
 
@@ -51,4 +82,12 @@
     flex-direction: column;
     width: 90%;
     justify-content: space-between;
+}
+
+.log{
+    margin-right: 70%;
+    margin-bottom: 50%;
+    margin-top: 1%;
+    font-size: 0.8em;
+
 }

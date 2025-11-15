@@ -132,4 +132,17 @@ input{
     height: 4ch;
     width: 35ch;
     border-radius: 4%;
+    border: 1px solid black;
+    }
+
+input:invalid{
+    border: 1px solid red
+}
+
+input:valid{
+    background-color: green;
+}
+
+input:focus{
+    border: 2px solid blue;
 }

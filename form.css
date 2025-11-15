@@ -3,7 +3,19 @@
     box-sizing: border-box;
     margin: 0;
 }
+.formstyle{
+    display: flex;
+    flex-direction: column;
+}
+#formcontainer{
+    background-color: darkgray;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 
 #fullflex{
     display: flex;
@@ -90,4 +102,19 @@ p{
     margin-top: 1%;
     font-size: 0.8em;
 
+}
+
+#rows{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    
+  
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
 }
